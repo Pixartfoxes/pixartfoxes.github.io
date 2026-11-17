@@ -305,3 +305,4 @@ section>.wrap{position:relative}
 .contact .to-top:hover{color:var(--amber)}
 @media (max-width:560px){.to-top{right:20px;top:-32px}}
 .soft li img{width:26px;height:26px;flex:none;display:block}
+.h1-name{display:block;font-size:clamp(1.1rem,1.6vw,1.35rem);font-weight:600;letter-spacing:0;color:var(--ink-soft);margin-bottom:12px;font-variation-settings:"wdth" 100}
