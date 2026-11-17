@@ -255,7 +255,7 @@ img.keyart{aspect-ratio:auto;height:auto}
 .pip-btn.is-current{outline:2px solid var(--ink);outline-offset:2px}
 .found{font-size:.85rem;color:var(--ink-soft)}
 @media (max-width:900px){.hero .wrap{grid-template-columns:1fr}.me{justify-self:start;max-width:420px}}
-#work{padding-top:56px}
+#projects{padding-top:56px}
 
 /* philosophy logo lies down on narrow screens */
 .why-mark-h{display:none}
@@ -295,3 +295,12 @@ img.keyart{aspect-ratio:auto;height:auto}
 .btn--ext .ico{width:16px;height:16px}
 .foot{display:flex;justify-content:space-between;gap:16px}
 .ver{opacity:.8}
+
+/* back to top */
+section>.wrap{position:relative}
+.to-top{position:absolute;top:-36px;right:28px;width:26px;height:13px;color:var(--ink);display:block}
+.to-top svg{width:100%;height:100%;display:block}
+.to-top:hover{color:var(--die)}
+.contact .to-top{color:var(--paper)}
+.contact .to-top:hover{color:var(--amber)}
+@media (max-width:560px){.to-top{right:20px;top:-32px}}
