@@ -304,3 +304,4 @@ section>.wrap{position:relative}
 .contact .to-top{color:var(--paper)}
 .contact .to-top:hover{color:var(--amber)}
 @media (max-width:560px){.to-top{right:20px;top:-32px}}
+.soft li img{width:26px;height:26px;flex:none;display:block}
