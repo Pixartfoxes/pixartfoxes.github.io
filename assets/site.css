@@ -306,3 +306,5 @@ section>.wrap{position:relative}
 @media (max-width:560px){.to-top{right:20px;top:-32px}}
 .soft li img{width:26px;height:26px;flex:none;display:block}
 .h1-name{display:block;font-size:clamp(1.1rem,1.6vw,1.35rem);font-weight:600;letter-spacing:0;color:var(--ink-soft);margin-bottom:12px;font-variation-settings:"wdth" 100}
+.credit-line{display:inline-flex;flex-wrap:wrap;gap:6px 16px;justify-content:flex-end;text-align:right}
+@media (max-width:700px){.foot{flex-direction:column}.credit-line{justify-content:flex-start;text-align:left}}
