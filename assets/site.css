@@ -308,3 +308,16 @@ section>.wrap{position:relative}
 .h1-name{display:block;font-size:clamp(1.1rem,1.6vw,1.35rem);font-weight:600;letter-spacing:0;color:var(--ink-soft);margin-bottom:12px;font-variation-settings:"wdth" 100}
 .credit-line{display:inline-flex;flex-wrap:wrap;gap:6px 16px;justify-content:flex-end;text-align:right}
 @media (max-width:700px){.foot{flex-direction:column}.credit-line{justify-content:flex-start;text-align:left}}
+
+/* hero: key strengths with logo-coloured diamonds */
+.dice-list{list-style:none;margin:22px 0 0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px 28px;max-width:40em}
+.dice-list li{display:flex;align-items:flex-start;gap:12px;color:var(--ink-soft);line-height:1.4}
+.dice-list li::before{content:"";width:11px;height:11px;transform:rotate(45deg);background:var(--c);flex:none;margin-top:.42em}
+.dice-list b{color:var(--ink);font-weight:600}
+@media (max-width:560px){.dice-list{grid-template-columns:1fr}}
+/* key strengths: columns sized to their content, so no item breaks mid-phrase */
+@media (min-width:1240px){
+  .dice-list{grid-template-columns:max-content max-content;max-width:none}
+  .dice-list li{white-space:nowrap}
+}
+@media (max-width:1239px){.dice-list{grid-template-columns:1fr}}
